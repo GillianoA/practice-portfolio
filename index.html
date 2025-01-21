@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to my personal website. I am a web developer with a passion for creating beautiful and functional websites.">
+    <title>My Personal Website</title>
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <button id="menu-toggle" aria-label="Toggle navigation menu" class="menu-button">
+            Main Menu
+        </button>
+        <nav role="navigation" class="nav-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>Hello! I'm a web developer with a passion for creating beautiful and functional websites. I have experience in HTML, CSS, and JavaScript, and I'm always eager to learn new technologies and improve my skills.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <article class="project-card">
+                <h3>Project One</h3>
+                <p>This is a description of my first project. It involves HTML, CSS, and JavaScript.</p>
+                <img src="https://images.squarespace-cdn.com/content/v1/63d40fe2cbd65e16cb8098b6/d958ac61-271f-42bb-b6ca-0b52c025fb2a/image-asset+%2811%29.jpeg" alt="Project One Screenshot">
+            </article>
+            <article class="project-card">
+                <h3>Project Two</h3>
+                <p>This is a description of my second project. It involves HTML, CSS, and JavaScript.</p>
+                <img src="https://miro.medium.com/v2/resize:fit:2000/0*p_fJnHsjtBlCF7jL.jpeg" alt="Project Two Screenshot">
+            </article>
+            <article class="project-card">
+                <h3>Project Three</h3>
+                <p>This is a description of my third project. It involves HTML, CSS, and JavaScript.</p>
+                <img src="https://cdn.sanity.io/images/7mopvf2j/production/220866ceb2fd49e3985aacf214af8029a3d03093-1920x1080.png" alt="Project Three Screenshot">
+            </article>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Git</li>
+                <li>Responsive Design</li>
+            </ul>
+        </section>
+        <section class="contact-form" id="contact">
+            <h2>Contact</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer></section>
+        <p>&copy; 2023 My Personal Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
